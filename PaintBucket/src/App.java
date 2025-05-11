@@ -84,46 +84,46 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         // all blue
-        // {
-        //     App app = new App();
+        {
+            App app = new App();
 
-        //     Canvas paintGrid = app.new Canvas(); 
-        //     paintGrid.createCanvas(4, "⬜");
-        //     String canvas[][] = paintGrid.getCanvas();
+            Canvas paintGrid = app.new Canvas(); 
+            paintGrid.createCanvas(4, "⬜");
+            String canvas[][] = paintGrid.getCanvas();
 
-        //     System.out.println("Initial Canvas:");
-        //     app.printCanvas(canvas);
+            System.out.println("Initial Canvas:");
+            app.printCanvas(canvas);
 
-        //     app.flood_fill(canvas, 2, 2, "🟦");
+            app.flood_fill(canvas, 2, 2, "🟦");
 
-        //     System.out.println("Final Canvas:");
-        //     app.printCanvas(canvas);
-        //     app.writeCanvas(canvas);
-        // }
+            System.out.println("Final Canvas:");
+            app.printCanvas(canvas);
+            app.writeCanvas(canvas);
+        }
 
         // Happy and Sad
-        // {
-        //     App app = new App();
+        {
+            App app = new App();
 
-        //     Canvas paintGrid = app.new Canvas(); 
-        //     paintGrid.createCanvas(5, "⬜");
-        //     String canvas[][] = paintGrid.getCanvas();
+            Canvas paintGrid = app.new Canvas(); 
+            paintGrid.createCanvas(5, "⬜");
+            String canvas[][] = paintGrid.getCanvas();
 
-        //     System.out.println("Initial Canvas:");
-        //     app.printCanvas(canvas);
+            System.out.println("Initial Canvas:");
+            app.printCanvas(canvas);
 
-        //     app.paint(canvas, 1, 2, "⬛");
-        //     app.paint(canvas, 2, 2, "⬛");
-        //     app.paint(canvas, 3, 2, "⬛");
-        //     app.paint(canvas, 4, 2, "⬛");
-        //     app.paint(canvas, 0, 2, "⬛");
-        //     app.flood_fill(canvas, 0, 0, "😀");
-        //     app.flood_fill(canvas, 0, 3, "🥲");
+            app.paint(canvas, 1, 2, "⬛");
+            app.paint(canvas, 2, 2, "⬛");
+            app.paint(canvas, 3, 2, "⬛");
+            app.paint(canvas, 4, 2, "⬛");
+            app.paint(canvas, 0, 2, "⬛");
+            app.flood_fill(canvas, 0, 0, "😀");
+            app.flood_fill(canvas, 0, 3, "🥲");
 
-        //     System.out.println("Final Canvas:");
-        //     app.printCanvas(canvas);
-        //     app.writeCanvas(canvas);
-        // }
+            System.out.println("Final Canvas:");
+            app.printCanvas(canvas);
+            app.writeCanvas(canvas);
+        }
 
         //Creeper
         {
